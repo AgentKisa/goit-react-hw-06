@@ -18,7 +18,9 @@ const Contact = ({ contact }) => {
           <BsFillTelephoneFill /> {contact.number}
         </p>
       </div>
-      <button onClick={() => dispatch(deleteContact(id))}>Delete</button>
+      <button onClick={() => dispatch(deleteContact(contact.id))}>
+        Delete
+      </button>
     </div>
   );
 };

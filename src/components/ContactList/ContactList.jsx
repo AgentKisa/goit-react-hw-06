@@ -14,8 +14,7 @@ const ContactList = () => {
     <ul>
       {filteredData.map((contact) => (
         <li key={contact.id}>
-          {contact.name}: {contact.number}
-          {/* <Contact pull={contact} /> */}
+          <Contact contact={contact} />
         </li>
       ))}
     </ul>

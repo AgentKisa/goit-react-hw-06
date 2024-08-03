@@ -1,9 +1,7 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 import ContactList from "./components/ContactList/ContactList";
 import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
+import "./App.css";
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
       <div>
         <h1>Phonebook</h1>
         <ContactForm />
-        {/* <SearchBox /> */}
+        <SearchBox />
         <ContactList />
       </div>
     </>
